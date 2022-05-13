@@ -1,0 +1,54 @@
+.samsungImg {
+  height: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card {
+  margin-top: 15px;
+}
+
+sup {
+  position: absolute;
+  top: 10px;
+  right: 3px;
+  color: blue;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li .icon {
+  color: #0d6efd;
+  margin-top: 10px;
+  width: 18px;
+}
+
+.secilmis {
+  font-size: 25px;
+  margin: 40px 60px;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.card:hover .addBtn {
+  color: white;
+  background-color: #3c80ff;
+}
+
+.addBtn {
+  background-color: white;
+  color: black;
+}
+/*# sourceMappingURL=style.css.map */
